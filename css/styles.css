@@ -1,0 +1,281 @@
+
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.arimo {
+    font-family: "Arimo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between; /* Distribuye los elementos a lo largo del contenedor */
+    align-items: center; /* Alinea verticalmente los elementos al centro */
+    padding: 10px 20px; /* Espaciado interno del header */
+    border-bottom: 0.1px solid rgb(211, 211, 211);
+}
+body:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 12px; /* Grosor de la línea */
+    background: linear-gradient(139deg, #FB8817, #FF4B01, #C12127, #E02AFF
+);
+}
+#logo img {
+    width: 30px;
+    height: auto;
+}
+.header-text {
+    flex-grow: 1;
+    margin: 0;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+nav ul li {
+    margin-left: 20px;
+}
+nav ul li:first-child {
+    margin-left: 0;
+}
+nav ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.header-container-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    padding-top: 3%;
+}
+#logoPpal{
+    align-items: center;
+    margin: 1%;
+}
+#logoPpal img {
+    padding-bottom: 20px;
+    width: 80px;
+    height: auto;
+}
+.search-bar {
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    height: 60px;
+    margin-bottom: 30px;
+}
+.search-input {
+    background-color: rgb(219, 219, 219);
+    border: 0;
+    color: rgb(9, 30, 66);
+    cursor: text;
+    box-sizing: border-box;
+    font-size: 18px;
+    padding: 15px 40px;
+    height: 100%;
+    flex-grow: 1;
+    background-image: url("/assets/img/lupa.png");
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    background-position: 5px center;
+}
+#search-button {
+    margin: 0;
+    padding: 15px 30px;
+    border: none;
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
+    height: 100%;
+}
+.auth-buttons {
+    margin-left: 10px;
+    height: 100%;
+}
+.auth-buttons a {
+    text-decoration: none;
+    color: #000000;
+}
+#signup {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 30px;
+    border: 0.5px solid #222222;
+    transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+    background: #fff;
+    color: #222222;
+    text-decoration: none;
+    height: 100%;
+}
+#signup:hover {
+    border-color: #00000080;
+    background: #F7F7F7;
+}
+#signin {
+    display: inline-block;
+    border: 0;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 15px;
+    background: #fff;
+    color: #222222;
+    margin-left: 10px;
+    height: 100%;
+}
+#imageWrap {
+    position: relative; 
+}
+#imageWrap img {
+    width: 100%; 
+    height: auto;
+}
+
+#textFlotant {
+    
+    position: absolute; /* Establece la posición absoluta para que pueda superponerse a otros elementos */
+    top: 70%; /* Ajusta la posición verticalmente al 50% del contenedor padre */
+    left: 50%; /* Ajusta la posición horizontalmente al 50% del contenedor padre */
+    transform: translate(-50%, -50%); /* Centra el div en el medio del contenedor padre */
+    z-index: 1; /* Asegura que el div esté por encima de la imagen de fondo */
+    padding: 20px; /* Añade un poco de espacio alrededor del contenido */
+    text-align: center; /* Centra el contenido horizontalmente */
+    color: white; /* Cambia el color del texto para que sea visible */
+
+}
+
+#textFlotant h1{
+    font-size: 80px;
+}
+
+#textFlotant h2{
+    padding-top: 20px;
+    font-size: 36px;
+}
+#textFlotant p {
+    transform: translate(25%, 25%);
+    width: 60vh;
+    font-family: "Arimo", sans-serif;
+    font-size: 16px;
+}
+
+#buttonsTwo{
+    padding: 40px; 
+}
+
+#signUp {
+    display: inline-block;
+                outline: 0;
+                border: none;
+                cursor: pointer;
+                padding: 0 18px;
+                border-radius: 50px;
+                min-width: 200px;
+                height: 50px;
+                font-size: 18px;
+                background-color: #fd0;
+                font-weight: 500;
+                color: #222;
+                box-shadow: 0px 10px 30px rgba(0, 0, 0, .4);
+
+}
+#learnAbout {
+    display: inline-block;
+                outline: 0;
+                border: solid 2px white;
+                cursor: pointer;
+                padding: 0 18px;
+                margin: 10px;
+                border-radius: 50px;
+                min-width: 200px;
+                height: 50px;
+                font-size: 18px;
+                background-color: #CB3837;
+                font-weight: 500;
+                color: #ffffff;
+}
+
+#textWrap {
+    padding-top: 10%;
+    width: 70vh;
+    padding-left: 30%;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Centra el contenido horizontalmente */
+    color: rgb(0, 0, 0); /* Cambia el color del texto para que sea visible */
+    
+}
+#textWrap img {
+    width: 120px;
+    height: auto;
+}
+
+#textWrap h2 {
+    font-size: 30px;
+    font-weight: 800;
+}
+#textWrap p {
+    padding-bottom: 200px;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    flex: 1;
+    padding: 0 10px;
+}
+
+#icons {
+    display: flex;
+    flex-direction: column; /* Alinea los íconos en una columna */
+}
+
+#icons img {
+    padding-top: 30px;
+    padding-left: 5%;
+    padding-bottom: 10%;
+    width: 60px; /* Ajusta el tamaño según necesites */
+    height: auto;
+}
+
+.column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.column ul li {
+    padding-top: 20px;
+    margin-bottom: 5px;
+}
+
+.column ul li a {
+    text-decoration: none;
+    color: #535353;
+}
+
+footer .column ul li:first-child {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold; 
+}
